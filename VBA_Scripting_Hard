@@ -1,10 +1,5 @@
 Sub VBA_Scripting_Hard()
 
-'----------------------------------
-' A  B  C  D  E  F  G  H  I   J   K   L   M   N
-' 1  2  3  4  5  6  7  8  9 10 11 12 13 14
-'----------------------------------
-
 ' MAIN SCRIPT
 
     ' Declare The Variables
@@ -90,11 +85,6 @@ Sub VBA_Scripting_Hard()
     
     Next i
     
-'----------------------------------------------------
-' A  B  C  D  E  F  G  H  I   J     K    L    M    N   O    P    Q    R    S
-' 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19
-'----------------------------------------------------
-    
 ' CONDITIONAL FORMATTING
 
     ' Set flexible last row of summary table
@@ -112,11 +102,6 @@ Sub VBA_Scripting_Hard()
         
     Next i
     
-'----------------------------------------------------
-' A  B  C  D  E  F  G  H  I   J     K    L    M    N   O    P    Q    R    S
-' 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19
-'----------------------------------------------------
-        
     ' set up second summary table pulled from first summary table
     Cells(2, 15).Value = "Greatest % Increase"
     Cells(3, 15).Value = "Greatest % Decrease"
