@@ -1,15 +1,17 @@
-# VBA_Challenge
-Module 2 Challenge - VBA of Wall Street 
+# VBA_Stock_Market_Challenge
 
-Per the instructions, I am adding to the README what things I had to get outside help for.
+## Use VBA Scripting to analyze generated stock market data.
 
-1. last row code
-2. how to put a full column in Range
-3. how to add up the ticker volume
-4. how to calculate percent change
-5. vba color index
-6. max and min functions
-7. looping through all worksheets
+Create a script that loops through all the stocks for one year and outputs the following information:
 
-I used a number of different online websites and forums, at least three sources for every problem that I had.
-I also had a tutoring session. 
+  - The ticker symbol
+
+  - Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+
+  - The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+
+  - The total stock volume of the stock.
+
+  - Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume".
+    
+  - Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
